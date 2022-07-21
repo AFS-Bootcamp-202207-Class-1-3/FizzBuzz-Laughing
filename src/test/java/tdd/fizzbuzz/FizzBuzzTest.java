@@ -36,4 +36,15 @@ public class FizzBuzzTest {
         assertEquals(excepted,fizzBuzz.countOff(number));
     }
 
+    @Test
+    public void should_return_FizzBuzz_when_count_off_given_15(){
+        String excepted="FizzBuzz";
+        int number=15;
+
+        FizzBuzz fizzBuzz=new FizzBuzz();
+
+        assertEquals(excepted,fizzBuzz.countOff(number));
+    }
+
+
 }
